@@ -1,0 +1,1 @@
+	$cat = "select b.title as title,m.blogid as value,count(*) as `value_occurence` from blog b inner join mostreadblog m on b.id = m.blogid group by `value` order by `value` DESC limit 5 ";
